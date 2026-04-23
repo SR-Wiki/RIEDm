@@ -20,7 +20,7 @@ The **RIED** is a new conceptual and methodological framework for super-resoluti
 
 ## 🧠 RIED reconstruction workflow
 
-![](imgs\RIED pipeline.png) 
+<img width="4391" height="1153" alt="RIED pipeline" src="https://github.com/user-attachments/assets/0f9d0d75-52f7-43c2-ba52-7b3a98b27c74" />
 
 | Main step                        | Function                                                     |
 | :------------------------------- | :----------------------------------------------------------- |
