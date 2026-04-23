@@ -11,7 +11,7 @@
 
 ## 📖 Introduction
 
-<img src="D:\GJH\ECL成像3-多色BL\返稿\code\imgs\RIED concept.png"  style="zoom:80%;"  />
+<img src="imgs\RIED concept.png"  style="zoom:80%;"  />
 
 The **RIED** is a new conceptual and methodological framework for super-resolution luminescence imaging. It establishes that fluctuation information inherent in reaction-driven luminescence—including **electrochemiluminescence (ECL)**, **chemiluminescence (CL)**, and **bioluminescence (BL)**—can be harnessed to achieve super-resolution reconstruction, enabling zero-background, ultra-long-term super-resolution imaging with sub-100 nm resolution. Within this framework, we developed a specific computational reconstruction algorithm, which implements entropy-weighted correlation with dual-step deconvolution to extract super-resolved information from continuously collected short-exposure frames.
 
@@ -19,7 +19,7 @@ The **RIED** is a new conceptual and methodological framework for super-resoluti
 
 ## 🧠 RIED reconstruction workflow
 
-![](D:\GJH\ECL成像3-多色BL\返稿\code\imgs\RIED pipeline.png) 
+![](imgs\RIED pipeline.png) 
 
 | Main step                        | Function                                                     |
 | :------------------------------- | :----------------------------------------------------------- |
