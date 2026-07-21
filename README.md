@@ -12,13 +12,12 @@
 
 <img src="imgs/RIED Cover.png" width="220" align="left" hspace="50" alt="RIED cover">  
 
-<div style="margin-left:240px">
+<div style="margin-left:270px">
     This repository is for <strong>RIED</strong> reconstruction, and it will be in continued   development. It is distributed as accompanying software for publication: <a href="https://doi.org/10.1038/s41586-026-10889-7"> <strong>Luminescent reaction enabled super-resolution imaging, <em>Nature</em> (2026)</strong> </a>. Please cite <strong>RIED</strong> in your publications if it helps your research. 
 </div>
 
 
 <br>
-<p align="center">
 <a href="#introduction">📖 Introduction</a> |
 <a href="#ried-reconstruction-workflow">🧠 RIED reconstruction workflow</a> |
 <a href="#installation">🔧 Installation</a> |
@@ -26,10 +25,10 @@
 <a href="#example-demonstration">🧪 Example demonstration</a> |
 <a href="#version">📚 Version</a> |
 <a href="#resources">📖 Resources</a>
-</p>
 
 <br>
-
+<br>
+<br>
 
 
 ## 📖 Introduction
