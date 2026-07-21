@@ -1,0 +1,25 @@
+# MATLAB autosave
+*.asv
+
+# MATLAB autosave
+*.autosave
+
+# MATLAB preferences
+*.prj
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+
+# Generated code
+codegen/
+slprj/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MATLAB Live Script cache
+*.mlx.autosave
