@@ -10,7 +10,7 @@
 
 
 
-<img src="imgs/RIED Cover.png" width="220" align="left" hspace="50" alt="RIED cover">  
+<img src="imgs/RIED Cover.png" width="270" align="left" hspace="50" alt="RIED cover">  
 
 <br>
 <br>
