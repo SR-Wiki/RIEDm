@@ -1,3 +1,5 @@
+[![Last Commit](https://img.shields.io/badge/last%20commit-July%202026-red)](https://github.com/SR-Wiki/RIEDm)[![Release](https://img.shields.io/badge/release-v0.1.0-orange)](https://github.com/SR-Wiki/RIEDm/releases/tag/v0.1)[![Paper](https://img.shields.io/badge/paper-Nature-blue)](https://doi.org/10.1038/s41586-026-10889-7)
+
 
 
 <p>
@@ -6,6 +8,27 @@
 <h6 align="right">v0.8.0</h6>
 </p>
 
+
+
+<img src="imgs/RIED cover.jpg" width="220" align="left" hspace="50" alt="RIED cover">  
+
+<div style="margin-left:240px">
+    This repository is for <strong>RIED</strong> reconstruction, and it will be in continued   development. It is distributed as accompanying software for publication: <a href="https://doi.org/10.1038/s41586-026-10889-7"> <strong>Luminescent reaction enabled super-resolution imaging, <em>Nature</em> (2026)</strong> </a>. Please cite <strong>RIED</strong> in your publications if it helps your research. 
+</div>
+
+<div style="margin-left:270px">
+    This repository is for <strong>RIED</strong> reconstruction, and it will be in continued   development. It is distributed as accompanying software for publication: <a href="https://doi.org/10.1038/s41586-026-10889-7"> <strong>Luminescent reaction enabled super-resolution imaging, <em>Nature</em> (2026)</strong> </a>. Please cite <strong>RIED</strong> in your publications if it helps your research. 
+</div>
+
+
+
+
+
+
+
+
+
+[📖 Introduction](#introduction) | [🧠 RIED reconstruction workflow](#RIED reconstruction workflow) | [🔧 Installation](#Installation) | [⚙️ Parameters](#Parameters) | [🧪 Example demonstration](#Example demonstration)| [📚 Version](#Version) | [📖 Resources](#Resources)
 
 
 
@@ -43,8 +66,12 @@ Matlab 2022b, with Wavelet Toolbox, Image Processing Toolbox, Parallel Computing
 % Add RIEDm to your path
 addpath(genpath('RIEDm'));
 
-% Basic reconstruction
+% Basic reconstruction (GPU accelarated)
 imgstack = imreadstack('bl.tif'); 
+RIEDrecon = RIEDm(imgstack);
+
+% Reconstruction based on pure CPU
+imgstack = imreadstack('bl.tif','gpu',0); 
 RIEDrecon = RIEDm(imgstack);
 ```
 
@@ -75,27 +102,11 @@ RIEDrecon = RIEDm(imgstack);
 | `finter2`   | Factor of fourier interpolation  after entropy-weighted correlation | 1-2               | 1       | '**1**' is **enough for most cases**. Increase if higher resolution demand. |
 | `iter2`     | Sparse deconvolution iterations                              | 2-15              | 5       | **Increase** to further enhance fluctuation, **reduce** if introduces artefacts |
 | `gamma`     | Factor of intensity correction                               | 0.5-1             | 1       | **reduce** to further intensity correction                   |
+| `gpu`       | Enable GPU acceleration                                      | 1                 | 1       | Enable GPU acceleration to speed up processing. '**0**' for pure CPU computation. |
 
 
 
 ## 🧪 Example demonstration
-
-- ### Reconstruction for ECL
-
- (microtubules, 100 frames)
-
-```
-% Involve RIED
-addpath(genpath('./RIED_core'));
-addpath(genpath('./Utils'));
-
-% RIED recon
-imgstack = imreadstack('RIEDm_data/ecl1.tif');
-RIEDrecon = RIEDm(imgstack,'pixel',160,'NA',1.45,'wavelength',620,'iter1',3,'subfactor',0.5,'fidelity',50,'sparsity',3,'iter2',7,'gamma',0.8);
-
-% Visualization
-visualize(imgstack, RIEDrecon, 520, 1, [1, 99.98], 'Green');
-```
 
 - ### Reconstruction for ECL
 
@@ -108,10 +119,10 @@ addpath(genpath('./Utils'));
 
 % RIED recon
 imgstack = imreadstack('RIEDm_data/ecl2.tif');
-RIEDrecon = RIEDm(imgstack,'pixel',160,'NA',1.45,'wavelength',620,'iter1',3,'subfactor',1,'fidelity',20,'sparsity',1,'iter2',3);
+RIEDrecon = RIEDm(imgstack,'pixel',160,'NA',1.45,'wavelength',620,'iter1',3,'subfactor',0.6,'fidelity',50,'sparsity',9,'iter2',2);
 
 % Visualization
-visualize(imgstack, RIEDrecon, 580, 1, [1, 99.5], 'Green');
+visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Green');
 ```
 
 - ### Reconstruction for BL
@@ -125,10 +136,10 @@ addpath(genpath('./Utils'));
 
 % RIED recon
 imgstack = imreadstack('RIEDm_data/bl.tif');
-RIEDrecon = RIEDm(imgstack,'pixel',160,'NA',1.42,'wavelength',517,'iter1',4,'subfactor',0,'fidelity',150,'sparsity',20,'iter2',5);
+RIEDrecon = RIEDm(imgstack,'pixel',160,'NA',1.42,'wavelength',517,'iter1',5,'subfactor',0,'fidelity',150,'sparsity',20,'iter2',5);
 
 % Visualization
-visualize(imgstack, RIEDrecon, 560, 1, [1, 99.98], 'Yellowhot');
+visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 ```
 
 
@@ -141,3 +152,16 @@ visualize(imgstack, RIEDrecon, 560, 1, [1, 99.98], 'Yellowhot');
 | v0.2.0  | RIED reconstruction core for ECL             |
 | v0.1.0  | initial version                              |
 
+
+
+## 📖 Resources
+
+- **Preprint:** [Reaction-enabled, highly sensitive super-resolution imaging, *bioRxiv* (2026).](https://www.biorxiv.org/content/10.64898/2026.02.04.703714v1)
+
+- **Publication:** [Luminescent reaction enabled super-resolution imaging, *Nature* (2026).](https://doi.org/10.1038/s41586-026-10889-7)
+
+
+
+## Open source [RIED](https://github.com/SR-Wiki/RIEDm)
+
+This software and corresponding methods can only be used for **non-commercial** use, and they are under Open Data Commons Open Database License v1.0.
