@@ -1,5 +1,4 @@
-[README.md](https://github.com/user-attachments/files/30235539/README.md)
-[![Last Commit](https://img.shields.io/badge/last%20commit-July%202026-red)](https://github.com/SR-Wiki/RIEDm)[![Release](https://img.shields.io/badge/release-v0.1.0-orange)](https://github.com/SR-Wiki/RIEDm/releases/tag/v0.1)[![Paper](https://img.shields.io/badge/paper-Nature-blue)](https://doi.org/10.1038/s41586-026-10889-7)
+[![Last Commit](https://img.shields.io/badge/last%20commit-July%202026-red)](https://github.com/SR-Wiki/RIEDm) [![Release](https://img.shields.io/badge/release-v0.1.0-orange)](https://github.com/SR-Wiki/RIEDm/releases/tag/v0.1) [![Paper](https://img.shields.io/badge/paper-Nature-blue)](https://doi.org/10.1038/s41586-026-10889-7)
 
 
 
@@ -10,7 +9,7 @@
 </p>
 
 
-<img src="imgs/RIED cover.jpg" width="220" align="left" hspace="50" alt="RIED cover">  
+<img src="imgs\RIED cover.jpg" width="220" align="left" hspace="50" alt="RIED cover">  
 
 <div style="margin-left:240px">
     This repository is for <strong>RIED</strong> reconstruction, and it will be in continued   development. It is distributed as accompanying software for publication: <a href="https://doi.org/10.1038/s41586-026-10889-7"> <strong>Luminescent reaction enabled super-resolution imaging, <em>Nature</em> (2026)</strong> </a>. Please cite <strong>RIED</strong> in your publications if it helps your research. 
