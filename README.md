@@ -36,6 +36,7 @@
 
 <br>
 
+<a id="introduction"></a>
 ## 📖 Introduction
 
 <img src="imgs\RIED concept.png"  style="zoom:80%;"  />
@@ -43,7 +44,7 @@
 The **RIED** is a new conceptual and methodological framework for super-resolution luminescence imaging. It establishes that fluctuation information inherent in reaction-driven luminescence—including **electrochemiluminescence (ECL)**, **chemiluminescence (CL)**, and **bioluminescence (BL)**—can be harnessed to achieve super-resolution reconstruction, enabling zero-background, ultra-long-term super-resolution imaging with sub-100 nm resolution. Within this framework, we developed a specific computational reconstruction algorithm, which implements entropy-weighted correlation with dual-step deconvolution to extract super-resolved information from continuously collected short-exposure frames.
 
 
-
+<a id="ried-reconstruction-workflow"></a>
 ## 🧠 RIED reconstruction workflow 
 
 <img src="imgs\RIED pipeline.png"  style="zoom:80%;"  />
@@ -55,7 +56,7 @@ The **RIED** is a new conceptual and methodological framework for super-resoluti
 | **Post sparse deconvolution**    | Maximize resolution enhancement without introducing artefacts |
 
 
-
+<a id="installation"></a>
 ## 🔧 Installation
 
 - ### Tested platforms
@@ -80,7 +81,7 @@ RIEDrecon = RIEDm(imgstack);
 ```
 
 
-
+<a id="parameters"></a>
 ## ⚙️ Parameters
 
 - ### Basic parameters
@@ -109,7 +110,7 @@ RIEDrecon = RIEDm(imgstack);
 | `gpu`       | Enable GPU acceleration                                      | 1                 | 1       | Enable GPU acceleration to speed up processing. '**0**' for pure CPU computation. |
 
 
-
+<a id="example-demonstration"></a>
 ## 🧪 Example demonstration
 
 - ### Reconstruction for ECL
@@ -147,7 +148,7 @@ visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 ```
 
 
-
+<a id="version"></a>
 ## 📚 Version 
 
 | Version | Changes                                      |
@@ -157,7 +158,7 @@ visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 | v0.1.0  | initial version                              |
 
 
-
+<a id="resources"></a>
 ## 📖 Resources
 
 - **Preprint:** [Reaction-enabled, highly sensitive super-resolution imaging, *bioRxiv* (2026).](https://www.biorxiv.org/content/10.64898/2026.02.04.703714v1)
