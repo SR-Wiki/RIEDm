@@ -24,7 +24,7 @@
 <a href="#introduction">📖 Introduction</a> |
 <a href="#ried-reconstruction-workflow">🧬 RIED reconstruction workflow</a> |
 <a href="#installation">🔧 Installation</a> |
-<a href="#parameters">⚙️ Parameters</a> |
+<a href="#parameters">🌐 Parameters</a> |
 <a href="#example-demonstration">🚀 Example demonstration</a> |
 <a href="#version">📦 Version</a> |
 <a href="#resources">🔗 Resources</a>
@@ -82,7 +82,7 @@ RIEDrecon = RIEDm(imgstack);
 
 
 <a id="parameters"></a>
-## ⚙️ Parameters
+## 🌐 Parameters
 
 - ### Basic parameters
 
