@@ -22,12 +22,12 @@
 <br>
 <br>
 <a href="#introduction">📖 Introduction</a> |
-<a href="#ried-reconstruction-workflow">🧠 RIED reconstruction workflow</a> |
+<a href="#ried-reconstruction-workflow">🧬 RIED reconstruction workflow</a> |
 <a href="#installation">🔧 Installation</a> |
 <a href="#parameters">⚙️ Parameters</a> |
-<a href="#example-demonstration">🧪 Example demonstration</a> |
-<a href="#version">📚 Version</a> |
-<a href="#resources">📖 Resources</a>
+<a href="#example-demonstration">🚀 Example demonstration</a> |
+<a href="#version">📦 Version</a> |
+<a href="#resources">🔗 Resources</a>
 
 <br>
 <br>
@@ -45,7 +45,7 @@ The **RIED** is a new conceptual and methodological framework for super-resoluti
 
 
 <a id="ried-reconstruction-workflow"></a>
-## 🧠 RIED reconstruction workflow 
+## 🧬 RIED reconstruction workflow 
 
 <img src="imgs\RIED pipeline.png"  style="zoom:80%;"  />
 
@@ -111,7 +111,7 @@ RIEDrecon = RIEDm(imgstack);
 
 
 <a id="example-demonstration"></a>
-## 🧪 Example demonstration
+## 🚀 Example demonstration
 
 - ### Reconstruction for ECL
 
@@ -149,7 +149,7 @@ visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 
 
 <a id="version"></a>
-## 📚 Version 
+## 📦 Version 
 
 | Version | Changes                                      |
 | :------ | :------------------------------------------- |
@@ -159,7 +159,7 @@ visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 
 
 <a id="resources"></a>
-## 📖 Resources
+## 🔗 Resources
 
 - **Preprint:** [Reaction-enabled, highly sensitive super-resolution imaging, *bioRxiv* (2026).](https://www.biorxiv.org/content/10.64898/2026.02.04.703714v1)
 
