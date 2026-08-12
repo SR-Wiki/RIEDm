@@ -4,7 +4,7 @@
 
 <p>
 <h1 align="center">RIED<font color="#FF6600">m</font></h1>
-<h5 align="center">luminescent Reaction enabled super-resolution Imaging via Entropy-weighted correlation combined with Deconvolution.</h5>
+<h5 align="center">luminescent-Reaction-enabled super-resolution Imaging via Entropy-weighted correlation combined with Deconvolution.</h5>
 <h6 align="right">v0.8.0</h6>
 </p>
 
@@ -14,7 +14,7 @@
 
 <br>
 <div style="margin-left:180px">
-    This repository is for <strong>RIED</strong> reconstruction, and it will be in continued   development. It is distributed as accompanying software for publication: <a href="https://doi.org/10.1038/s41586-026-10889-7"> <strong>Luminescent reaction enabled super-resolution imaging, <em>Nature</em> (2026)</strong> </a>. Please cite <strong>RIED</strong> in your publications if it helps your research. 
+    This repository is for <strong>RIED</strong> reconstruction, and it will be in continued   development. It is distributed as accompanying software for publication: <a href="https://doi.org/10.1038/s41586-026-10889-7"> <strong>Luminescent-reaction-enabled super-resolution imaging, <em>Nature</em> (2026)</strong> </a>. Please cite <strong>RIED</strong> in your publications if it helps your research. 
 </div>
 
 <br>
