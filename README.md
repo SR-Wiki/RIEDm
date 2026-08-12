@@ -163,7 +163,7 @@ visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 
 - **Preprint:** [Reaction-enabled, highly sensitive super-resolution imaging, *bioRxiv* (2026).](https://www.biorxiv.org/content/10.64898/2026.02.04.703714v1)
 
-- **Publication:** [Luminescent reaction enabled super-resolution imaging, *Nature* (2026).](https://doi.org/10.1038/s41586-026-10889-7)
+- **Publication:** [Luminescent-reaction-enabled super-resolution imaging, *Nature* (2026).](https://doi.org/10.1038/s41586-026-10889-7)
 
 
 
