@@ -168,4 +168,4 @@ visualize(imgstack, RIEDrecon, 480, 1, [1, 99.98], 'Yellowhot');
 
 
 ## Open source [RIED](https://github.com/SR-Wiki/RIEDm)
-This software and corresponding methods can only be used for **non-commercial** use, and they are under BSD-3-Clause License v1.0.
+This software and corresponding methods can only be used for **non-commercial** use, and they are under Open Data Commons Open Database License v1.0.
