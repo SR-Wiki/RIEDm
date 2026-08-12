@@ -4,7 +4,7 @@
 
 <p>
 <h1 align="center">RIED<font color="#FF6600">m</font></h1>
-<h5 align="center">luminescent-Reaction-enabled super-resolution Imaging via Entropy-weighted correlation combined with Deconvolution.</h5>
+<h5 align="center">luminescent Reaction enabled super-resolution Imaging via Entropy-weighted correlation combined with Deconvolution.</h5>
 <h6 align="right">v0.8.0</h6>
 </p>
 
