@@ -1,4 +1,4 @@
-[![Last Commit](https://img.shields.io/badge/last%20commit-July%202026-red)](https://github.com/SR-Wiki/RIEDm) [![Release](https://img.shields.io/badge/release-v0.1.0-orange)](https://github.com/SR-Wiki/RIEDm/releases/tag/v0.1) [![Paper](https://img.shields.io/badge/paper-Nature-blue)](https://doi.org/10.1038/s41586-026-10889-7) [![License](https://img.shields.io/github/license/SR-Wiki/RIEDm)](https://github.com/SR-Wiki/RIEDm/blob/master/LICENSE/)
+[![Last Commit](https://img.shields.io/badge/last%20commit-July%202026-red)](https://github.com/SR-Wiki/RIEDm) [![Release](https://img.shields.io/badge/release-v0.1.0-orange)](https://github.com/SR-Wiki/RIEDm/releases/tag/v0.1) [![Paper](https://img.shields.io/badge/paper-Nature-blue)](https://doi.org/10.1038/s41586-026-10889-7) [![License](https://img.shields.io/github/license/SR-Wiki/RIEDm)](https://github.com/SR-Wiki/RIEDm/LICENSE/)
 
 
 
